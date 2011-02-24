@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<SurfaceView android:id="@+id/surface_camera"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+	</SurfaceView>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button_shutter" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:text="Snap !!"></Button>
+<TextView android:layout_below="@id/button_shutter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/text_progress" android:text="progress" android:textColor="#ffffff" android:layout_alignParentRight="true" android:layout_alignParentTop="true"></TextView>
+</RelativeLayout>
+

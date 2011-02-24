@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="value" android:id="@+id/main_slider1_txt"></TextView><SeekBar android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/main_slider1" android:max="100"></SeekBar><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/main_slider2_txt" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:text="smooth"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/main_slider2_txt1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:text="valsAvail" android:id="@+id/main_slider2_txt2"></TextView><SeekBar android:layout_height="wrap_content" android:layout_width="fill_parent" android:max="100" android:id="@+id/main_slider2" android:layout_below="@+id/main_slider2_txt"></SeekBar></RelativeLayout><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="value" android:id="@+id/main_slider3_txt"></TextView><SeekBar android:layout_height="wrap_content" android:layout_width="fill_parent" android:max="100" android:id="@+id/main_slider3"></SeekBar>
+
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/main_ip" android:text="192.168.1.8" android:width="200px"></EditText><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/main_port" android:text="10001" android:hint="Port" android:width="100px"></EditText>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/main_connect" android:text="Connect"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/main_close" android:text="Close"></Button>
+</LinearLayout>
+</LinearLayout>
